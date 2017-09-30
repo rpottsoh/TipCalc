@@ -34,6 +34,7 @@ type
     trkMax: TTrackBar;
     lblTip: TListBoxItem;
     procedure Recalc(Sender: TObject);
+    procedure edtNetClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -46,6 +47,7 @@ var
 implementation
 
 {$R *.fmx}
+{$R *.NmXhdpiPh.fmx ANDROID}
 
 // This function counts the number of items checked in a listbox
 function CountChecks(lb:TListBox): Integer;
@@ -56,6 +58,11 @@ begin
   for I := 0 to lb.Items.Count - 1 do
     if lb.ListItems[I].IsChecked then
       Result := Result + 1;
+end;
+
+procedure TForm1.edtNetClick(Sender: TObject);
+begin
+  edtNet.SelectAll;
 end;
 
 procedure TForm1.Recalc(Sender: TObject);
