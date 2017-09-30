@@ -7,7 +7,7 @@ object Form1: TForm1
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
-  DesignerMasterStyle = 0
+  DesignerMasterStyle = 3
   object ListBox1: TListBox
     Align = Top
     Size.Width = 327.000000000000000000
@@ -19,10 +19,10 @@ object Form1: TForm1
     DefaultItemStyles.ItemStyle = ''
     DefaultItemStyles.GroupHeaderStyle = ''
     DefaultItemStyles.GroupFooterStyle = ''
-    Viewport.Width = 323.000000000000000000
-    Viewport.Height = 205.000000000000000000
+    Viewport.Width = 327.000000000000000000
+    Viewport.Height = 209.000000000000000000
     object ListBoxItem1: TListBoxItem
-      Size.Width = 323.000000000000000000
+      Size.Width = 327.000000000000000000
       Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
@@ -42,10 +42,11 @@ object Form1: TForm1
         Cursor = crIBeam
         ValueType = Float
         TextSettings.HorzAlign = Trailing
-        Size.Width = 203.000000000000000000
-        Size.Height = 50.000000000000000000
+        Size.Width = 207.000000000000000000
+        Size.Height = 32.000000000000000000
         Size.PlatformDefault = False
         OnChange = Recalc
+        OnClick = edtNetClick
       end
     end
     object ListBoxItem2: TListBoxItem
@@ -54,15 +55,15 @@ object Form1: TForm1
       Padding.Right = 5.000000000000000000
       Padding.Bottom = 5.000000000000000000
       Position.Y = 50.000000000000000000
-      Size.Width = 323.000000000000000000
+      Size.Width = 327.000000000000000000
       Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 1
       Text = ' '
       object lblMin: TLabel
         Align = Client
-        Size.Width = 313.000000000000000000
-        Size.Height = 21.000000000000000000
+        Size.Width = 317.000000000000000000
+        Size.Height = 8.000000000000000000
         Size.PlatformDefault = False
         TextSettings.HorzAlign = Center
         Text = 'Min Tip: 5%'
@@ -73,9 +74,9 @@ object Form1: TForm1
         CanParentFocus = True
         Orientation = Horizontal
         Position.X = 5.000000000000000000
-        Position.Y = 26.000000000000000000
-        Size.Width = 313.000000000000000000
-        Size.Height = 19.000000000000000000
+        Position.Y = 13.000000000000000000
+        Size.Width = 317.000000000000000000
+        Size.Height = 32.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 1
         Value = 5.000000000000000000
@@ -88,15 +89,15 @@ object Form1: TForm1
       Padding.Right = 5.000000000000000000
       Padding.Bottom = 5.000000000000000000
       Position.Y = 100.000000000000000000
-      Size.Width = 323.000000000000000000
+      Size.Width = 327.000000000000000000
       Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 2
       Text = ' '
       object lblMax: TLabel
         Align = Client
-        Size.Width = 313.000000000000000000
-        Size.Height = 21.000000000000000000
+        Size.Width = 317.000000000000000000
+        Size.Height = 8.000000000000000000
         Size.PlatformDefault = False
         TextSettings.HorzAlign = Center
         Text = 'Max Tip: 20%'
@@ -107,9 +108,9 @@ object Form1: TForm1
         CanParentFocus = True
         Orientation = Horizontal
         Position.X = 5.000000000000000000
-        Position.Y = 26.000000000000000000
-        Size.Width = 313.000000000000000000
-        Size.Height = 19.000000000000000000
+        Position.Y = 13.000000000000000000
+        Size.Width = 317.000000000000000000
+        Size.Height = 32.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 2
         Value = 20.000000000000000000
@@ -120,7 +121,7 @@ object Form1: TForm1
       TextSettings.HorzAlign = Center
       StyledSettings = [Family, Size, Style, FontColor]
       Position.Y = 150.000000000000000000
-      Size.Width = 323.000000000000000000
+      Size.Width = 327.000000000000000000
       Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 3
@@ -147,7 +148,7 @@ object Form1: TForm1
     DefaultItemStyles.GroupFooterStyle = ''
     ShowCheckboxes = True
     OnChange = Recalc
-    Viewport.Width = 323.000000000000000000
-    Viewport.Height = 376.000000000000000000
+    Viewport.Width = 327.000000000000000000
+    Viewport.Height = 380.000000000000000000
   end
 end
