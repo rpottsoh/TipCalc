@@ -10,24 +10,31 @@ inherited Form1_NmXhdpiPh: TForm1_NmXhdpiPh
       Size.Width = 400.000000000000000000
       inherited edtNet: TNumberBox
         Size.Width = 280.000000000000000000
+        Size.Height = 32.000000000000000000
       end
     end
     inherited ListBoxItem2: TListBoxItem
       Size.Width = 400.000000000000000000
       inherited lblMin: TLabel
         Size.Width = 390.000000000000000000
+        Size.Height = 8.000000000000000000
       end
       inherited trkMin: TTrackBar
+        Position.Y = 13.000000000000000000
         Size.Width = 390.000000000000000000
+        Size.Height = 32.000000000000000000
       end
     end
     inherited ListBoxItem5: TListBoxItem
       Size.Width = 400.000000000000000000
       inherited lblMax: TLabel
         Size.Width = 390.000000000000000000
+        Size.Height = 8.000000000000000000
       end
       inherited trkMax: TTrackBar
+        Position.Y = 13.000000000000000000
         Size.Width = 390.000000000000000000
+        Size.Height = 32.000000000000000000
       end
     end
     inherited lblTip: TListBoxItem
